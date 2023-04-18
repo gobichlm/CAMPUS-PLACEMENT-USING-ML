@@ -1,0 +1,41 @@
+<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body bgcolor="#1cd269" background="image/campus%20gobi%20place.jpg">
+    <form id="form1" runat="server">
+    <p style="font-size: 40px;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        FILL THE DETAILS</p>
+    <p>
+        NAME :<asp:TextBox ID="TextBox1" runat="server" ontextchanged="TextBox1_TextChanged" 
+            Width="551px"></asp:TextBox>
+    </p>
+    <p>
+        DOB&nbsp;&nbsp;&nbsp; :<asp:TextBox ID="TextBox2" runat="server" Width="547px"></asp:TextBox>
+    </p>
+    <p>
+        <asp:TextBox ID="TextBox3" runat="server" Width="546px"></asp:TextBox>
+    </p>
+    <p>
+        <asp:TextBox ID="TextBox4" runat="server" Width="544px"></asp:TextBox>
+    </p>
+    <p>
+        <asp:TextBox ID="TextBox5" runat="server" Width="552px"></asp:TextBox>
+    </p>
+    <p>
+        <asp:TextBox ID="TextBox6" runat="server" Width="539px"></asp:TextBox>
+    </p>
+    <p>
+        <asp:Button ID="Button1" runat="server" style="margin-left: 105px" 
+            Text="SUBMIT" Width="283px" />
+    </p>
+    <p>
+        &nbsp;</p>
+    </form>
+</body>
+</html>
